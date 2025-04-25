@@ -55,6 +55,7 @@ Make sure you have the following installed:
 Update the appsettings.json file with your local SQL Server connection string well you dont have to do that all manually I have done that for you just clone my repo.
 3. Run migrations to create db schemas let EF do the job for you .
 4.To test the API you can use swagger UI or POSTMAN I have used swagger because It was inbuilt in .Net since i have time boundation.
+5. dont forget to download the nuget pacakages fro JWT Bearer and EF CORE for sql as well nothing would work without them.
 
 Below is the Folder Strcture
 TaskManagementAPI/
