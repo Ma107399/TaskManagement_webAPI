@@ -1,0 +1,6 @@
+@TaskManagementAPIZimozi_HostAddress = http://localhost:5001
+
+GET {{TaskManagementAPIZimozi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
