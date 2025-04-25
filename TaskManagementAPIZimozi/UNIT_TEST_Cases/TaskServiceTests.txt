@@ -1,0 +1,16 @@
+Title: Unit Tests for TaskService
+
+Testing GetTask(id):
+- Positive Test Case:
+  Input: Valid task ID (e.g., 1)
+  Expected Result: Should return the task with ID 1
+
+- Negative Test Case:
+  Input: Invalid ID (e.g., 999)
+  Expected Result: Should return null or handle not found
+
+Testing GetAllTasks():
+- Expected Result: Should return a list of all tasks in database
+
+Note: In a real test, we would use mocking to simulate database values.
+Example framework: xUnit + Moq (if implemented in code)
